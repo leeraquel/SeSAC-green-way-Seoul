@@ -1,3 +1,17 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  max-width: 400px;
+}
+
+#map {
+  width: 100%; /* Full width of the viewport */
+  height: calc(
+    100vh - 60px
+  ); /* Full height of the viewport minus 60px for the footer */
+}
+
 .infoCard {
   display: none;
 }
